@@ -14,6 +14,9 @@ const Home = ({ visits, setVisits }) => {
                 Krish Kalpeshkumar Patel 
                 <br></br><br></br>B00946672
             </p>
+            <p>
+                Home page visited {visits} times.
+            </p>
         </div>
     );
 }
