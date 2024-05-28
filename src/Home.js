@@ -2,8 +2,8 @@ import React, {useEffect} from "react";
 
 const Home = ({ visits, setVisits }) => {
     useEffect(() => {
-        setVisits(visits ++);
-    }, [visits, setVisits]);
+        setVisits(previousvisits => previousvisits +1);
+    }, [setVisits]);
     
     return (
         <div>
