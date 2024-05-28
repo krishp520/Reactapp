@@ -2,8 +2,8 @@ import React, {useEffect} from "react";
 
 const Home = ({ visits, setVisits }) => {
     useEffect(() => {
-        setVisits( visits ++);
-    }, [visits, setVisits]);
+        setVisits(visits++);
+    }, [setVisits]);
     
     return (
         <div>
@@ -12,7 +12,7 @@ const Home = ({ visits, setVisits }) => {
             </h2>
             <p>
                 Krish Kalpeshkumar Patel 
-                <br></br>B00946672
+                <br></br><br></br>B00946672
             </p>
         </div>
     );
